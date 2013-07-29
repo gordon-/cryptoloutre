@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+        <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap-responsive.min.css" type="text/css" />
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css" type="text/css" />
+        {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+        {% endif %}
+        {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+        {% endif %}
+
+
+</head>
+
+<body id="index" class="home">
+    <div class="container-fluid">
+        <div class="row-fluid">
+                <div class="span2 "></div>
+                        <div class="span2">
+                            <a href="index"><img src="{{ SITEURL }}/theme/img/cryptoloutre.png" alt="Cryptoloutre" class="img-circle"></a>
+                            <ul class="nav nav-list">
+                                <li><a href="index.php"><i class="icon-home icon-white"></i> Home</a></li>
+                                <li class="nav-header">Logiciels / Apps</li>
+                                <li><a href="logiciels.php"><i class="icon-hdd"></i> Logiciels</a></li>
+                                <li><a href="android.php">Android</a></li>
+                                <li class="nav-header">Qu'est ce que ...</li>
+                                <li><a href="expl_chiffrement_symetrique.php">Chiffrement symétrique</a></li>
+                                <li><a href="expl_hashage.php">Hash (hachage)</a></li>
+                                <li class="nav-header">Algo ? Que choisir ?</li>
+                                <li><a href="algo.php"><i class="icon-list"></i> Liste</a></li>
+                                <li class="nav-header">Mettre en place ...</li>
+                                <li><a href="tuto_gpg.php">GPG</a></li>
+                                <li><a href="tuto_enigmail.php">Enigmail</a></li>
+                                <li class="nav-header">Autres</li>
+                                <li><a href="ressources.php">Ressources</a></li>
+                                <li><a href="conferences.php"><i class="icon-film"></i> Conférences</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="span6">
+                            <div class="page-header"><h1>{{ SITENAME }} <small>{{ SITESUBTITLE }}</small></h1></div>
+                        </div>
+                        {% block content %}
+                        {% endblock %}
+                        <div class="span2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
