@@ -4,6 +4,8 @@
 
 Nous nous faisons de notre mieux pour écrire des  et pour tenir les informations à jour. Néanmoins, il se peut qu'il y ait des erreurs. Comme dit l'adage, *better safe than sorry*.
 
+Pour éviter au maximum des erreurs, avant toute publication, les informations sont relues par d'autres personnes qui sont compétents dans ce domaine. La liste des personnes qui écrivent ainsi que les relecteurs est disponible [ici](./apropos.html).
+
 ## Les patchs sont les bienvenus
 
 Si vous trouvez des erreurs, n'hésitez pas à nous les notifier à contact [at] cryptolout.re.
