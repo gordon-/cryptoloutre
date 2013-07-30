@@ -1,3 +1,12 @@
+Title: Les bases théoriques
+Date: 2013-08-03 10:20
+Category: Bases théoriques
+Tags: 
+Slug: les-bases-theoriques
+Author: Cryptoloutre
+Summary: 
+
+
 # Open source obligatoirement et libre privilégié
 
 ## Fonctionnement ouvert ...

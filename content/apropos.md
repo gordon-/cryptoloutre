@@ -1,3 +1,10 @@
+Title: À propos
+Date: 2013-08-3 10:20
+Slug: a-propos
+Author: Cryptoloutre
+Summary: 
+
+
 # Qui sommes nous ?
 
 Nous ne sommes pas des cryptologues, juste un petit groupe passionné par l'informatique et ce que permet la cryptographie, c'est à dire protéger des informations.

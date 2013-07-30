@@ -1,3 +1,9 @@
+Title: Disclaimer
+Date: 2013-08-3 10:20
+Slug: disclaimer
+Author: Cryptoloutre
+Summary: 
+
 # Mise en garde 
 
 ## Prenez les informations avec du recul
