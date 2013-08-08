@@ -7,7 +7,7 @@ Summary:
 
 # Qui sommes nous ?
 
-Nous ne sommes pas des cryptologues, juste un petit groupe passionné par l'informatique et ce que permet la cryptographie, c'est à dire protéger des informations.
+Nous ne sommes pas des cryptologues, juste un petit groupe passionné par l'informatique et ce que permet la cryptographie, c'est à dire protéger des informations et être en mesure de les authentifier.
 
 ## Les contributeurs sont
 
