@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Cryptoloutre</title><link href="http://cryptolout.re/" rel="alternate"></link><link href="http://cryptolout.re/feeds/all-fr.atom.xml" rel="self"></link><id>http://cryptolout.re/</id><updated>2013-08-03T10:20:00+02:00</updated><entry><title>À propos</title><link href="http://cryptolout.re/misc/a-propos.html" rel="alternate"></link><updated>2013-08-03T10:20:00+02:00</updated><author><name>Cryptoloutre</name></author><id>tag:cryptolout.re,2013-08-03:misc/a-propos.html</id><summary type="html">&lt;h1 id="qui-sommes-nous"&gt;Qui sommes nous ?&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Cryptoloutre</title><link href="http://cryptolout.re/" rel="alternate"></link><link href="http://cryptolout.re/feeds/all-fr.atom.xml" rel="self"></link><id>http://cryptolout.re/</id><updated>2013-09-10T20:50:00+02:00</updated><entry><title>Example code snippet</title><link href="http://cryptolout.re/snippets/example.html" rel="alternate"></link><updated>2013-09-10T20:50:00+02:00</updated><author><name>Cryptoloutre</name></author><id>tag:cryptolout.re,2013-09-10:snippets/example.html</id><summary type="html">&lt;p&gt;here I will include code:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;hello&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+  &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;hello&amp;quot;&lt;/span&gt;
+
+
+&lt;span class="n"&gt;hello&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s"&gt;&amp;quot; world&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="section" id="that-was-some-code"&gt;
+&lt;h2&gt;That was some code&lt;/h2&gt;
+&lt;/div&gt;
+</summary><category term="python"></category><category term="code"></category></entry><entry><title>À propos</title><link href="http://cryptolout.re/misc/a-propos.html" rel="alternate"></link><updated>2013-08-03T10:20:00+02:00</updated><author><name>Cryptoloutre</name></author><id>tag:cryptolout.re,2013-08-03:misc/a-propos.html</id><summary type="html">&lt;h1 id="qui-sommes-nous"&gt;Qui sommes nous ?&lt;/h1&gt;
 &lt;p&gt;Nous ne sommes pas des cryptologues, juste un petit groupe passionné par l'informatique et ce que permet la cryptographie, c'est à dire protéger des informations et être en mesure de les authentifier.&lt;/p&gt;
 &lt;h2 id="les-contributeurs-sont"&gt;Les contributeurs sont&lt;/h2&gt;
 &lt;ul&gt;
