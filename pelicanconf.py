@@ -34,3 +34,6 @@ THEME="template"
 OUTPUT_SOURCES = True
 
 MD_EXTENSIONS = ['codehilite', 'extra', 'headerid']
+
+PLUGIN_PATH = 'plugins'
+PLUGINS = ["code_include"]
