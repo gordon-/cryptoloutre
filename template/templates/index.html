@@ -8,7 +8,7 @@
         {% if loop.first and not articles_page.has_previous() %}
             <aside id="featured" class="body">
                 <article>
-                    {% if article.title != '' %}<h2 class="entry-title"><a href="{{ SITEURL }}/{{
+                    {% if article.title != '' %}<h2 class="entry-title"><a href="/{{
                             article.url }}">{{ article.title }}</a></h2>{% endif %}
                     {{ article.content }}
                 </article>
@@ -22,7 +22,7 @@
 <section id="content" class="body">    
 <h2>Pages</h2>
     {% for page in PAGES %}
-        <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+        <li><a href="/{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}
 </section>
 {% endif %}
