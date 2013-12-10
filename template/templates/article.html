@@ -12,6 +12,10 @@
 
       {{ article.content }}
 
+                    {% if article.tags %}<ul class="taglist">{% for tag in
+                        article.tags %}<li><a href="/{{ tag.url
+                            }}"><i class="icon-tag icon-white"></i> {{ tag }}</a>
+                    </li>{% endfor %}</ul>{% endif %}
   </article>
 </section>
 {% endblock %}

@@ -6168,3 +6168,8 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+
+.taglist li {
+    display: inline;
+    list-style-type: none;
+}
